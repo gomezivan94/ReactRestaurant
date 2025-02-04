@@ -1,5 +1,8 @@
-import BtnMenu from '../BtnMenu/BtnMenu'
+import BtnMenu from "../BtnMenu/BtnMenu"
 import './MenuSection.css'
+
+
+
 function MenuSection() {
   return (
     <div className='menu-section py-5 text-light shadow'>
@@ -43,7 +46,8 @@ function MenuSection() {
         </div>
         <BtnMenu/>
      </div>
-  </div>
+  </div>  
   )
 }
+
 export default MenuSection

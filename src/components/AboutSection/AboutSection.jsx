@@ -1,6 +1,5 @@
-import { Link } from 'react-router-dom'
 import './AboutSection.css'
-
+import { Link } from 'react-router-dom';
 
 function AboutSection() {
   return (
@@ -16,9 +15,9 @@ function AboutSection() {
           <Link to="/about">
         <button className='btn btn-outline-success btn-lg'>More About Us</button>
           </Link>
-      </div>
+      </div>          
     </div>
-</div>
+</div> 
   )
 }
 
